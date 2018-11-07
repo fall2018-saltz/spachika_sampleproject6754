@@ -13,16 +13,6 @@
             ],
             "source": "hotelSurveySherison.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -31,11 +21,8 @@
         },
         {
             "name": "clean.R"
-        },
-        {
-            "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-31 06:23:36",
+    "updated_at": "2018-11-07 03:47:41",
     "url": "https://github.com/fall2018-saltz/spachika_sampleproject6754"
 }
