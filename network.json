@@ -3,26 +3,12 @@
         "spachika"
     ],
     "created_at": "2018-09-27 15:29:21",
-    "edges": [
-        {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "hotelSurveySherison.csv",
-            "target": "clean.R"
-        }
-    ],
+    "edges": [],
     "nodes": [
         {
             "name": "hotelSurveySherison.csv"
-        },
-        {
-            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-11-07 03:47:41",
+    "updated_at": "2018-11-07 03:47:46",
     "url": "https://github.com/fall2018-saltz/spachika_sampleproject6754"
 }
